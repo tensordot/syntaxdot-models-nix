@@ -23,6 +23,11 @@
             inherit (syntaxdot.packages.${system}) syntaxdot;
           };
         in {
+          de-ud-small = model {
+            modelName = "de-ud-small";
+            version = "20200907";
+            hash = "sha256-Ns76DVQK5/k7bcbh4mp8oKiB6eLFQkcU8s3AfrdMxaI=";
+          };
           nl-ud-large = model {
             modelName = "nl-ud-large";
             version = "20200812";
