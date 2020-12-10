@@ -23,6 +23,11 @@
             inherit (syntaxdot.packages.${system}) syntaxdot;
           };
         in {
+          nl-ud-medium = model {
+            modelName = "nl-ud-medium";
+            version = "20200812";
+            hash = "sha256-afHz6ZNPHR7KYiSAL5FRWkLxk+gourn4AG/dV9d+Q1M=";
+          };
           nl-ud-small = model {
             modelName = "nl-ud-small";
             version = "20200907";
