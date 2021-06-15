@@ -25,8 +25,8 @@
         in {
           de-ud-large = model {
             modelName = "de-ud-large";
-            version = "20200812";
-            hash = "sha256-/ixfUz+ygLYMxr8Cy0N08lEwqJtWzcOX0/PkjZUGCOg=";
+            version = "20210326";
+            hash = "sha256-QnbCXjuursqaA6RCPXroeNb7jbexdUhk8uCn7mRvwUQ=";
           };
           de-ud-medium = model {
             modelName = "de-ud-medium";
