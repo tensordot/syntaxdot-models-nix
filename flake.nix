@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "SyntaxDot models";
 
   inputs = rec {
     nixpkgs.follows = "syntaxdot/nixpkgs";
