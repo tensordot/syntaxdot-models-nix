@@ -48,6 +48,11 @@
             version = "20210324";
             hash = "sha256-aJqO+wOiNmpZdB5eMaH5sgx74rhEWO2O7U9cwxMznKc=";
           };
+          nl-ud-large-albert = model {
+            modelName = "nl-ud-large-albert";
+            version = "20210331";
+            hash = "sha256-uzlW78K7gMOyXA93ofBPWet5uPvE+VvGGuAgg1sFPTY=";
+          };
           nl-ud-medium = model {
             modelName = "nl-ud-medium";
             version = "20210312";
