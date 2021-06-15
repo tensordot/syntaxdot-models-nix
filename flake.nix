@@ -53,11 +53,6 @@
             version = "20210312";
             hash = "sha256-J2SusHWp+757XFLWXSs2pi7EdSrhigmpM76HAKPF7To=";
           };
-          nl-ud-small = model {
-            modelName = "nl-ud-small";
-            version = "20200907";
-            hash = "sha256-CR+X2pdOlViCrK+hS/8GpVn7QGvdNGAWQ/Qoi0gPZQY=";
-          };
         };
     });
 }
