@@ -19,7 +19,7 @@
 stdenvNoCC.mkDerivation rec {
   inherit version;
 
-  pname = "syntaxdot-model-${modelName}";
+  pname = modelName;
 
   src = fetchurl {
     inherit hash;
