@@ -1,4 +1,5 @@
-{ stdenvNoCC
+{ lib
+, stdenvNoCC
 , fetchurl
 , makeWrapper
 , syntaxdot
@@ -43,7 +44,7 @@ stdenvNoCC.mkDerivation rec {
       --add-flags "$out/share/syntaxdot/models/${modelName}/syntaxdot.conf"
   '';
 
-  meta = with stdenvNoCC.lib; {
+  meta = with lib; {
     homepage = https://github.com/tensordot/syntaxdot/;
     description = "SyntaxDot ${modelName} model";
     license = licenses.unfreeRedistributable;
