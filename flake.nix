@@ -50,8 +50,8 @@
           };
           nl-ud-medium = model {
             modelName = "nl-ud-medium";
-            version = "20200812";
-            hash = "sha256-afHz6ZNPHR7KYiSAL5FRWkLxk+gourn4AG/dV9d+Q1M=";
+            version = "20210312";
+            hash = "sha256-J2SusHWp+757XFLWXSs2pi7EdSrhigmpM76HAKPF7To=";
           };
           nl-ud-small = model {
             modelName = "nl-ud-small";
