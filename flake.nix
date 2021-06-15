@@ -33,6 +33,11 @@
             version = "20210326";
             hash = "sha256-QnbCXjuursqaA6RCPXroeNb7jbexdUhk8uCn7mRvwUQ=";
           };
+          de-ud-large-albert = model {
+            modelName = "de-ud-large-albert";
+            version = "20210402";
+            hash = "sha256-+xo+82Mt0GYhOUBbBpI8l1GaajFeepDuEmDUY7k6SRU=";
+          };
           de-ud-medium = model {
             modelName = "de-ud-medium";
             version = "20210326";
