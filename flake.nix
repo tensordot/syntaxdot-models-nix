@@ -35,8 +35,8 @@
           };
           de-ud-medium = model {
             modelName = "de-ud-medium";
-            version = "20200831";
-            hash = "sha256-28xkJ6sFR71FfGzCnwjzQCoDXZ5pH2lNRJrDALoWrRk=";
+            version = "20210326";
+            hash = "sha256-60eIrnEzTkJ1+fU2xD0xUwXgly4R7cddSR5UUN1w2+g=";
           };
           de-ud-small = model {
             modelName = "de-ud-small";
