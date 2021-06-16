@@ -14,6 +14,10 @@
 
   # The hash of the model.
 , hash
+
+
+  # Model description.
+, description ? "SyntaxDot ${modelName} model"
 }:
 
 stdenvNoCC.mkDerivation rec {
@@ -45,8 +49,9 @@ stdenvNoCC.mkDerivation rec {
   '';
 
   meta = with lib; {
+    inherit description;
+
     homepage = https://github.com/tensordot/syntaxdot/;
-    description = "SyntaxDot ${modelName} model";
     license = licenses.unfreeRedistributable;
     maintainers = with maintainers; [ danieldk ];
     platforms = platforms.unix;
